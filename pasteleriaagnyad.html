@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pasteleria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .superseccion{
+            background: rgba(225, 116, 176, 0.29);
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        body{
+            margin: 0px;
+            font-family: monse;
+        }
+        img{
+            width: 100%;
+        }
+        ul{
+            list-style: none;
+        }
+        .seccion1{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 50px 0 50px;
+            align-items: center;
+        }
+        .logohijo1seccion1{
+            width: 250px;
+        }
+        .listahijo1seccion1{
+            color: black;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .seccion1 .hijo1seccion1{
+            display: flex;
+            align-items: center;
+        }
+        .seccion1 .listahijo1seccion1 ul{
+            display: flex;
+            gap: 10px;
+        }
+        .seccion1 .hijo2seccion1 {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+        .nieto1hijo2seccion1{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        } 
+        .nieto2hijo2seccion1{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            margin-right: 100px;
+        }
+        .telefonohijo2seccion1{
+            width: 42px;
+            height: 44px;
+        }
+        .parrafonieto1hijo2seccion1{
+            color: black;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .carrodecompra{
+            border-radius: 50px;
+            background-color: black;
+            padding: 15px;
+        }
+        .seccion2{
+            display: flex;
+            justify-content: center;
+            padding-right: 43px;
+            gap: 10px;
+        }
+        .bloque1hijo1seccion2{
+            padding: 100px;
+            width: 575px;
+            height: 157px;
+            margin: 0px 0px 0px 75px;
+        }
+        .titulohijo1seccion2{
+            color: black;
+            font-family: Montserrat;
+            font-size: 128px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+        .parrafohijo1seccion2{
+            color: black;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            width: 608px;
+        }
+        .botonhijo1seccion2{
+            width: 250px;
+            height: 30px;
+            border-radius: 430px;
+            text-align: center;
+            background-color: rgba(246, 248, 128, 0.9);
+            color: #000;
+            font-family: Montserrat;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .clasebotonhijo1seccion2.0{
+            text-decoration: none;
+        }
+        .galletasbloque1seccion2{
+            display: flex;
+            gap: 150px;
+        }
+        .galleta1hijo1seccion2{
+            width: 100px;
+            margin: 500px 0px 0px 40px;
+        }
+        .galleta2hijo1seccion2{
+            padding: 300px 0px 0px 250px;
+            width: 150px;
+        }
+        .hijo2seccion2{
+            width: 400px;
+            margin: 300px 130px 0px 0px;
+        }
+        .seccion3{
+            display: flex;
+        }
+        .hijo1seccion3{
+            width: 500px;
+            padding: 80px;
+            margin: 80px 0px 0px 50px;
+            border-radius: 816px;
+            filter: drop-shadow(10px 30px 50px rgba(225, 116, 176, 0.80));
+        }
+        .hijo2seccion3{
+            padding: 0px 100px 0px 0px;
+        }
+        .titulohijo2seccion3{
+            color: black;
+            font-family: Montserrat;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            letter-spacing: 1.28px;
+            text-align: left;
+        }
+        .parrafohijo2seccion3{
+            color: black;
+            font-family: Montserrat;
+            font-size: 22px;
+            width: 570px;
+        }
+        .galleta4{
+            width: 200px;
+            margin: 0px 150px 50px 50px;
+        }
+        .bloquehijo2seccion3{
+            display: flex;
+        }
+        .galleta6{
+            width: 150px;
+            margin: 200px 0px 0px 0px;
+        }
+        .galleta5{
+            width: 150px;
+            margin: 50px 0px 0px 200px;
+        }
+        .hijo1seccion4{
+            display: flex;
+            align-items: baseline;
+            padding: 100px;
+            gap: 50px 0px;
+            width: 1140px;
+            margin: 0px;
+        }
+        .hijo2seccion4{
+            display: flex;
+            padding: 100px;
+            gap: 50px 0px;
+            align-items: baseline;
+            width: 1100px;
+            margin: 0px;
+        }
+        .galleta7{
+            text-align: center;
+            border-radius: 584px;
+            filter: drop-shadow(10px 30px 40px rgba(225, 116, 176, 0.80));
+        }
+        .galleta8{
+            text-align: center;
+            border-radius: 525px;
+            filter: drop-shadow(15px 35px 42px rgba(225, 116, 176, 0.80));
+        }
+        .galleta9{
+            text-align: center;
+            border-radius: 584px;
+            filter: drop-shadow(20px 40px 44px rgba(225, 116, 176, 0.80));
+        }
+        .galleta10{
+            text-align: center;
+            border-radius: 584px;
+            filter: drop-shadow(25px 45px 46px rgba(225, 116, 176, 0.80));
+        }
+        .galleta11{
+            text-align: center;
+            border-radius: 584px;
+            filter: drop-shadow(30px 45px 48px rgba(225, 116, 176, 0.80));
+        }
+        .galleta12{
+            text-align: center;
+            border-radius: 584px;
+            filter: drop-shadow(35px 50px 50px rgba(225, 116, 176, 0.80));
+        }
+        .seccion5{
+            display: flex;
+        }
+        .hijo1seccion5{
+            width: 800px;
+            text-decoration: none;
+        }
+        .hijo2seccion5{
+            width: 70%;
+        }
+        .nieto1hijo1seccion5{
+            padding: 50px;
+            margin: 0px 0px 0px 75px;
+            text-decoration: none;
+        }
+        .parrafohijo1seccion5{
+            color: #000;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.64px;
+        }
+        .botonhijo1seccion5{
+            width: 200px;
+            height: 25px;
+            border-radius: 90px;
+            text-align: center;
+            background-color: rgba(246, 248, 128, 0.9);
+            color: #000;
+            font-family: Montserrat;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .clasebotonhijo1seccion5.0{
+            text-decoration: none;
+        }
+        .nieto2hijo1seccion5{
+            display: flex;
+        }
+        .repostera{
+            width: 650px;    
+            padding: 30px;
+            margin: 0px 0px 0px 50px;
+            border-radius: 1012px;
+            filter: drop-shadow(35px 50px 50px rgba(225, 116, 176, 0.80));
+        }
+        .agnyadpiedepagina{
+            width: 442px;
+            margin: 250px 120px 0px 0px;
+            padding: 100px;
+        }
+        .cajadegalleta{
+            width: 300px;
+            margin: 0px 70px 0px 50px;
+            border-radius: 838px;
+            filter: drop-shadow(20px 40px 44px rgba(246, 248, 128, 0.40));
+        }
+        .nieto1hijo2seccion5{
+            display: flex;
+            gap: 50px;
+            margin: 150px 200px 0px 10px;
+        }
+        .nieto2hijo2seccion5{
+            display: flex;
+            gap: 70px;
+            margin: 200px 200px 0px 10px;
+        }
+        .galleta13{
+            width: 200px;
+        }
+        .telefononieto2hijo2seccion5{
+            display: flex;
+            gap: 30px;
+            margin: 50px 0px 0px 10px;
+        }
+        .instgram{
+            margin: 50px 0px 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="superseccion">
+        <div class="seccion1">
+            <div class="hijo1seccion1">
+                <div class="logohijo1seccion1">
+                    <img src="logoagnyad.png" alt="">
+                </div>
+                <div class="listahijo1seccion1">
+                    <ul>
+                        <li>Home</li>
+                        <li>Productos</li>
+                        <li>Tienda</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hijo2seccion1">
+                <div class="nieto1hijo2seccion1">
+                    <img class="telefonohijo2seccion1" src="telephone-call 3.png" alt="">
+                    <p class="parrafonieto1hijo2seccion1">+7 708 123 45 67</p>
+                </div>
+                <div class="nieto2hijo2seccion1">
+                    <div class="carrodecompra">
+                        <img src="carrocompras.png" alt="">
+                    </div>
+                    <div>
+                        <img src="sort-down 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seccion2">
+            <div class="hijo1seccion2">
+                <div class="bloque1hijo1seccion2">
+                    <h1 class="titulohijo1seccion2">MAKARONS</h1>
+                    <p class="parrafohijo1seccion2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut metus erat. Maecenas mattis vel mauris ut efficitur.</p>
+                    <a class="clasebotonhijo1seccion2.0" href="#">
+                        <div class="botonhijo1seccion2">Más información</div>
+                    </a>
+                </div>
+                <div class="galletasbloque1seccion2">
+                    <div class="galleta1hijo1seccion2">
+                        <img src="galleta1.png" alt="">
+                    </div>
+                    <div class="galleta2hijo1seccion2">
+                        <img src="galleta2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="hijo2seccion2" src="galleta3.png" alt="">
+            </div>
+        </div>
+        <div class="seccion3">
+            <div class="hijo1seccion3">
+                <img class="salpicon" src="salpicion.png" alt="">
+            </div>
+            <div class="hijo2seccion3">
+                <img class="galleta4" src="galleta4.png" alt="">
+                <h1 class="titulohijo2seccion3">El mejor sabor
+                    es indiscustible</h1>
+                <p class="parrafohijo2seccion3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut metus erat. Maecenas mattis vel mauris ut efficitur. Nam placerat semper purus consequat lacinia. Donec in mauris sagittis, tempor arcu ut, commodo libero.</p>
+                <div class="bloquehijo2seccion3">
+                    <div class="galleta6">
+                        <img src="galleta6.png" alt="">
+                    </div>
+                    <div class="galleta5">
+                        <img src="galleta5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seccion4">
+            <div class="hijo1seccion4">
+                <div class="galleta7">
+                    <img src="galleta7.png" alt="">
+                    <h3 class="titgalleta7hijo1seccion4">Macarons 1</h3>
+                    <p class="parrgalleta7hijo1seccion4">$10</p>
+                </div>
+                <div class="galleta8">
+                    <img src="galleta8.png" alt="">
+                    <h3 class="titgalleta8hijo1seccion4">Macarons 1</h3>
+                    <p class="parrgalleta8hijo1seccion4">$10</p>
+                </div>
+                <div class="galleta9">
+                    <img src="galleta9.png" alt="">
+                    <h3 class="titgalleta9hijo1seccion4">Macarons 1</h3>
+                    <p class="parrgalleta9hijo1seccion4">$10</p>
+                </div>
+            </div>
+            <div class="hijo2seccion4">    
+                <div class="galleta10">
+                    <img src="galleta10.png" alt="">
+                    <h3 class="titgalleta10hijo2seccion4">Macarons 1</h3>
+                    <p class="parrgalleta10hijo2seccion4">$10</p>
+                </div>
+                <div class="galleta11">
+                    <img src="galleta11.png" alt="">
+                    <h3 class="titgalleta11hijo2seccion4">Macarons 1</h3>
+                    <p class="parrgalleta11hijo2seccion4">$10</p>
+                </div>
+                <div class="galleta12">
+                    <img src="galleta12.png" alt="">
+                    <h3 class="titgalleta12hijo2seccion4">Macarons 1</h3>
+                    <p class="parrgalleta12hijo2seccion4">$10</p>
+                </div>
+            </div>
+        </div>
+        <div class="seccion5">
+            <div class="hijo1seccion5">
+                <div class="nieto1hijo1seccion5">
+                    <p class="parrafohijo1seccion5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ornare est et nisi pretium, dignissim vestibulum nibh tincidunt. Proin a ultricies quam. Sed diam turpis, porta vitae rhoncus vitae, efficitur vel diam.</p>
+                    <a class="clasebotonhijo1seccion5.0" href="#">
+                        <div class="botonhijo1seccion5">Más información</div>
+                    </a>
+                </div>
+                <div class="nieto2hijo1seccion5">
+                    <div class="repostera">
+                        <img src="repostera.png" alt="">
+                    </div>
+                    <div class="agnyadpiedepagina">
+                        <img src="agnyadpiedepagina.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="hijo2seccion5">
+                <div class="cajadegalleta">
+                    <img src="cajadegalleta.png" alt="">
+                </div>
+                <div class="nieto1hijo2seccion5">
+                    <div class="contactanos">
+                        <h4 class="titulocontactanos">Contactanos</h4>
+                        <div class="parrafocontactanos">
+                            <p>Santa Marta</p>
+                            <p>3053060138</p>
+                        </div>
+                    </div>
+                    <div class="galleta13">
+                        <img src="galleta13.png" alt="">
+                    </div>
+                </div>
+                <div class="nieto2hijo2seccion5">
+                    <div class="telefononieto2hijo2seccion5">
+                        <div class="telefono2">
+                            <img src="telephone-call 2.png" alt="">
+                        </div>
+                        <div class="numerotelefono">
+                            <p>3053060138</p>
+                        </div>
+                    </div>
+                    <div class="instgram">
+                        <img src="instagram 1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
